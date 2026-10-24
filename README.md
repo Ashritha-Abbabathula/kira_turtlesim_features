@@ -63,7 +63,7 @@ When the turtle reaches a clicked target, KIRA automatically narrates the arriva
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Ashritha-Abbabathula/kira-turtle-deploy.git
+   git clone https://github.com/Ashritha-Abbabathula/kira_turtlesim_features.git
    ```
 2. Open `index.html` in your browser — no build step needed
 3. Enter your [Groq API key](https://console.groq.com) when prompted
@@ -73,7 +73,7 @@ When the turtle reaches a clicked target, KIRA automatically narrates the arriva
 1. Sign up at [console.groq.com](https://console.groq.com)
 2. Go to **API Keys** → **Create API Key**
 3. Paste it when prompted on first load
-4. Your key is saved locally in `localStorage` — never shared
+4. Your key is saved only in your browser's `localStorage` and is sent only to Groq's API
 
 ---
 
@@ -95,7 +95,7 @@ When the turtle reaches a clicked target, KIRA automatically narrates the arriva
 ## 📁 File Structure
 
 ```
-kira-turtle-deploy/
+kira_turtlesim_features/
 ├── index.html        # Entire app — simulator + KIRA UI + logic
 └── README.md
 ```
